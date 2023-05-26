@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#nav {
+    background-color: #1f4c87;
+    padding: 4px;
+}
+
+#nav a {
+    color: orange;
+}
+
+#navLogo {
+    margin: 0px 10px;
+}
+
+.heading {
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: red;
+    border-radius: 15px;
+    color: white;
+}
+
+#CpuUtilizationLogs,
+#MemoryOverusedLogs,
+#DiskStorageLogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    background-color:#1f4c8700;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+table {
+    width: 65%;
+    border: 1px solid;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    
+}
+
+th {
+    background-color: lightgray;
+}
+
+th,
+tr,
+td {
+    height: 15px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: red;
+}
+section{
+  flex: 0 0 auto;
+  width: 100%;
+   
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: var(--dl-size-size-maxwidth);
+  display: inline-table;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(315deg, rgb(44, 146, 215) 0.00%,rgb(251, 39, 132) 100.00%);
+}

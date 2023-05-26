@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 40px;
+    background-color: whitesmoke;
+    border-radius: 7px;
+    font-family: sans-serif;
+}
+
+#form input {
+    margin: 0px 10px;
+}
+
+#form input {
+    margin: 3px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px;
+    width: 250px;
+    border: 2px solid black;
+}
+
+#form button,
+#recheck {
+    margin: 0px 15px;
+    padding: 8px 20px;
+    font-size: 16px;
+    width: 150px;
+}
+
+nav {
+    padding: 0px;
+}
+
+#nav {
+    background-color: #1f4c87;
+    padding: 4px;
+}
+
+#nav a {
+    color: orange;
+}
+
+#navLogo {
+    margin: 0px 10px;
+}
+
+#dashboard {
+    margin: 20px 40px;
+    padding: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: blue;
+    border-radius: 7px;
+}
+
+#graphs {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.card {
+    width: 500px;
+    height: auto;
+    margin: 10px 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 0px rgb(206 206 230);
+    background-color: whitesmoke;
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+#graphs img {
+    width: 400px;
+    height: 200px;
+}
+
+#myChart2 {
+    height: 220px;
+    width: 220px;
+}
+
+#packet_send_received {
+    width: 220px;
+    height: 250px;
+    margin: auto;
+}
+
+.alert {
+    display: none;
+    margin: 0px;
+    height: auto;
+    color: white;
+    font-family: sans-serif;
+    border: 1px solid transparent;
+    border-radius: 25.25rem;
+    background-color: red;
+    padding: 5px;
+    width:250px; 
+    font-size: 13px;
+
+    animation-iteration-count: infinite;
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+    animation-delay: 0s; 
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+        left: 200px;
+        top: 0px;
+    }
+}
